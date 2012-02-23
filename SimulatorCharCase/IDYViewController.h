@@ -10,4 +10,7 @@
 
 @interface IDYViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIImageView *iconImageView;
+@property (nonatomic, strong) IBOutlet UILabel *iconFileNameLabel;
+
 @end

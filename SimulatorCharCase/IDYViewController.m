@@ -9,6 +9,7 @@
 #import "IDYViewController.h"
 
 @implementation IDYViewController
+@synthesize iconFileNameLabel, iconImageView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,6 +23,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+	NSString *iconFileName = @"picture.jpg";
+	self.iconFileNameLabel.text = iconFileName;
+	self.iconImageView.image = [UIImage imageNamed:iconFileName];
 }
 
 - (void)viewDidUnload

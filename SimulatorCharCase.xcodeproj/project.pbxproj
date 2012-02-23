@@ -15,6 +15,7 @@
 		D8708A6D14F6921200FB0A99 /* IDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8708A6C14F6921200FB0A99 /* IDYAppDelegate.m */; };
 		D8708A7014F6921200FB0A99 /* IDYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8708A6F14F6921200FB0A99 /* IDYViewController.m */; };
 		D8708A7314F6921200FB0A99 /* IDYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8708A7114F6921200FB0A99 /* IDYViewController.xib */; };
+		D8708A7C14F694DE00FB0A99 /* picture.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D8708A7B14F694DE00FB0A99 /* picture.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		D8708A5C14F6921200FB0A99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8708A5E14F6921200FB0A99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8708A6014F6921200FB0A99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8708A6414F6921200FB0A99 /* SimulatorCharCase-Info.plist */ = {isa = PBXFileReference; path = "SimulatorCharCase-Info.plist"; sourceTree = "<group>"; };
+		D8708A6414F6921200FB0A99 /* SimulatorCharCase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatorCharCase-Info.plist"; sourceTree = "<group>"; };
 		D8708A6614F6921200FB0A99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8708A6814F6921200FB0A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8708A6A14F6921200FB0A99 /* SimulatorCharCase-Prefix.pch */ = {isa = PBXFileReference; path = "SimulatorCharCase-Prefix.pch"; sourceTree = "<group>"; };
-		D8708A6B14F6921200FB0A99 /* IDYAppDelegate.h */ = {isa = PBXFileReference; path = IDYAppDelegate.h; sourceTree = "<group>"; };
+		D8708A6A14F6921200FB0A99 /* SimulatorCharCase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimulatorCharCase-Prefix.pch"; sourceTree = "<group>"; };
+		D8708A6B14F6921200FB0A99 /* IDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDYAppDelegate.h; sourceTree = "<group>"; };
 		D8708A6C14F6921200FB0A99 /* IDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDYAppDelegate.m; sourceTree = "<group>"; };
-		D8708A6E14F6921200FB0A99 /* IDYViewController.h */ = {isa = PBXFileReference; path = IDYViewController.h; sourceTree = "<group>"; };
+		D8708A6E14F6921200FB0A99 /* IDYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDYViewController.h; sourceTree = "<group>"; };
 		D8708A6F14F6921200FB0A99 /* IDYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDYViewController.m; sourceTree = "<group>"; };
 		D8708A7214F6921200FB0A99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IDYViewController.xib; sourceTree = "<group>"; };
+		D8708A7B14F694DE00FB0A99 /* picture.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picture.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		D8708A6314F6921200FB0A99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8708A7B14F694DE00FB0A99 /* picture.JPG */,
 				D8708A6414F6921200FB0A99 /* SimulatorCharCase-Info.plist */,
 				D8708A6514F6921200FB0A99 /* InfoPlist.strings */,
 				D8708A6814F6921200FB0A99 /* main.m */,
@@ -151,6 +154,7 @@
 			files = (
 				D8708A6714F6921200FB0A99 /* InfoPlist.strings in Resources */,
 				D8708A7314F6921200FB0A99 /* IDYViewController.xib in Resources */,
+				D8708A7C14F694DE00FB0A99 /* picture.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
